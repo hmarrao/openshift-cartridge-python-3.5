@@ -44,7 +44,7 @@ function build_python() {
 	
 	curl -L -o $tdir/$ver.tgz https://www.python.org/ftp/python/$ver/Python-$ver.tgz
 	cd $tdir
-	tar xvzf $tdir/$ver.tgz
+	tar xvzf $ver.tgz
 	
 	# if a different version exists, remove it first
 	if [ -d $pdir/usr/bin ]; then
