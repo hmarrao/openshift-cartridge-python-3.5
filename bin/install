@@ -90,7 +90,7 @@ else
 fi
 
 # Clean up temp directory
-rm -rf $tdir/python-$ver
+rm -rf $tdir/Python-$ver
 rm -f $tdir/$ver.tgz
 
 # pip stores cache in .cache an logs in .pip.
