@@ -70,7 +70,7 @@ function is_virt_installed() {
 }
 
 function create_virt() {
-	if [ -f $pdir/usr/bin/virtualenv ]; then
+	if [ -f $vdir/bin/activate ]; then
 		$pdir/usr/bin/python -m venv --clear $vdir
 	else
 		client_error "virtualenv not installed"
